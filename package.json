@@ -1,5 +1,5 @@
 {
-  "name": "unused-3",
+  "name": "node-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fikrimarzuki/unused-3.git"
+    "url": "git+https://github.com/Fikrimarzuki/node-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Fikrimarzuki/unused-3/issues"
+    "url": "https://github.com/Fikrimarzuki/node-api/issues"
   },
-  "homepage": "https://github.com/Fikrimarzuki/unused-3#readme",
+  "homepage": "https://github.com/Fikrimarzuki/node-api#readme",
   "dependencies": {
     "mime": "^2.5.2",
     "swagger-ui-dist": "^5.17.14",
