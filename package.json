@@ -1,0 +1,37 @@
+{
+  "name": "unused-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.test.js'",
+    "test:watch": "mocha --watch",
+    "coverage": "nyc mocha",
+    "dev": "node app.js",
+    "test-docs": "npx swagger-cli validate docs/swagger.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fikrimarzuki/unused-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fikrimarzuki/unused-3/issues"
+  },
+  "homepage": "https://github.com/Fikrimarzuki/unused-3#readme",
+  "dependencies": {
+    "mime": "^2.5.2",
+    "swagger-ui-dist": "^5.17.14",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.7.3",
+    "nyc": "^17.1.0",
+    "sinon": "^19.0.2",
+    "sinon-chai": "^4.0.0",
+    "swagger-cli": "^4.0.4"
+  }
+}
